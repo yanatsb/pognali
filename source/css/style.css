@@ -3,7 +3,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* Убираем внутренние отступы */
@@ -50,8 +51,122 @@ select {
   font: inherit;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: 'Blogger Sans';
+  src: url("/source/fonts/Blogger Sans-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blogger Sans';
+  src: url("/source/fonts/Blogger Sans.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blogger Sans';
+  src: url("/source/fonts/Blogger Sans-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blogger Sans';
+  src: url("/source/fonts/Blogger Sans-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Blogger Sans';
+  font-weight: 700;
+  font-style: normal;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 60px;
 }
+
+.header {
+  height: 100vh;
+  background-image: url(../img/header-bg.png);
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__top-left {
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header__top-line {
+  height: 2px;
+  width: 60px;
+  margin: 0 45px 0 40px;
+}
+
+.header__top-list,
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 34px;
+}
+
+.link {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.link:hover {
+  color: #FFD74B;
+}
+
+.call-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #FF8D30;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.call-btnsvg {
+  position: relative;
+  top: 16px;
+  left: 16px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,18 @@
+body {
+  font-family: 'Blogger Sans';
+  font-weight: 700;
+  font-style: normal;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 50px 60px;
+  padding: 60px;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(../img/header-bg.png);
 }
 
 .header__top {
@@ -11,18 +22,61 @@
 }
 
 .header__top-left {
+  font-weight: 500;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fff;
 }
-.header__top-line{
+
+.header__top-line {
   height: 2px;
   width: 60px;
-  background: $light-color-font;
   margin: 0 45px 0 40px;
 }
+
 .header__top-list,
-.list{
+.list {
   display: flex;
   justify-content: space-between;
   gap: 34px;
+}
+
+.link {
+  transition: all .3s;
+}
+
+.link:hover {
+  color: #FFD74B;
+}
+
+.call-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #FF8D30;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.call-btn-img {
+  position: relative;
+  top: 16px;
+  left: 16px;
+}
+
+.mail-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #FFBD30;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.mail-btn-img {
+  position: relative;
+  top: 16px;
+  left: 16px;
 }

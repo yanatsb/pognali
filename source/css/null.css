@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Указываем box sizing */
 *,
 *::before,
@@ -29,14 +30,6 @@ dd {
   margin: 0;
 }
 
-// /* Выставляем основные настройки по-умолчанию для body */
-// body {
-//   min-height: 100vh;
-//   scroll-behavior: smooth;
-//   text-rendering: optimizeSpeed;
-//   line-height: 1.5;
-// }
-
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
 ul,
 ol {
@@ -56,6 +49,7 @@ textarea,
 select {
   font: inherit;
 }
-a{
+
+a {
   text-decoration: none;
 }

@@ -110,6 +110,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 101px;
   }
   .header__title{
     font-weight: 700;
@@ -129,4 +130,36 @@ body{
     font-size: 21px;
     line-height: 24px;
     max-width: 246px;
+  }
+  .header__list{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__item{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 32px 30px 30px;
+    border-radius: 20px;
+    flex-basis: 25%;
+  }
+  .header__item:not(:last-child){
+    padding-right: 62px;
+  }
+  .header__item:first-child{
+    background: #FF8D30;
+  }
+  .header__item:nth-child(2){
+    background: #FFA530;
+    position: relative;
+    left: -30px;
+  }
+  .header__item:nth-child(3){
+    background: #FFBD30;
+    position: relative;
+    left: -60px;
+  }
+  .header__item:nth-child(4){
+    background: #FFD74B;
+    position: relative;
+    left: -90px;
   }

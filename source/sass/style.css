@@ -1,0 +1,358 @@
+@charset "UTF-8";
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul,
+ol {
+  list-style: none;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: 'Blogger Sans';
+  src: url("/source/fonts/Blogger Sans-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blogger Sans';
+  src: url("/source/fonts/Blogger Sans.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blogger Sans';
+  src: url("/source/fonts/Blogger Sans-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blogger Sans';
+  src: url("/source/fonts/Blogger Sans-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Blogger Sans';
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(../img/header-bg.png);
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 121px;
+}
+
+.header__top-left {
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.header__top-right {
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+.header__top-line {
+  height: 2px;
+  width: 60px;
+  background: #fff;
+  margin: 0 45px 0 40px;
+}
+
+.header__top-list,
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 34px;
+}
+
+.link {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.link:hover {
+  color: #FFD74B;
+}
+
+.call-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #FF8D30;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.call-btn-img {
+  position: relative;
+  top: 16px;
+  left: 16px;
+}
+
+.call-btn:hover {
+  background: #F26926;
+}
+
+.mail-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #FFBD30;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.mail-btn-img {
+  position: relative;
+  top: 16px;
+  left: 16px;
+}
+
+.mail-btn:hover {
+  background: #FF8D30;
+}
+
+.authorization-btn {
+  display: inline-block;
+  border-radius: 25px;
+  padding: 16px 28px 14px;
+  background: #FFD74B;
+  color: #161C35;
+}
+
+.authorization-btn:hover {
+  background: #FFBD30;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 101px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  max-width: 418px;
+}
+
+.header__content-text {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 45px;
+  max-width: 264px;
+}
+
+.header__content-name {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  max-width: 246px;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 32px 30px 30px;
+  border-radius: 20px;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+.header__item:not(:last-child) {
+  padding-right: 62px;
+}
+
+.header__item:first-child {
+  background: #FF8D30;
+}
+
+.header__item:nth-child(2) {
+  background: #FFA530;
+  position: relative;
+  left: -30px;
+}
+
+.header__item:nth-child(3) {
+  background: #FFBD30;
+  position: relative;
+  left: -60px;
+}
+
+.header__item:nth-child(4) {
+  background: #FFD74B;
+  position: relative;
+  left: -90px;
+}
+
+.service {
+  background: #192144;
+}
+
+.service__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 619px;
+}
+
+.title {
+  font-size: 45px;
+  line-height: 45px;
+  margin-bottom: 57px;
+  color: #FF8D30;
+}
+
+.service__subtitle {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: 38px;
+}
+
+.service__text {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  margin-bottom: 85px;
+}
+
+.more-btn {
+  display: inline-block;
+  background: #FFD74B;
+  border-radius: 20px;
+  padding: 29px 35px 27px 32px;
+  max-width: 274px;
+}
+/*# sourceMappingURL=style.css.map */

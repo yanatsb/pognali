@@ -34,3 +34,9 @@
     padding: 29px 35px 27px 32px;
     max-width: 274px;
 }
+.more-btn::after{
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-color: #1D2E5B;
+}

@@ -1,0 +1,24 @@
+.directions {
+  background: #EDEFF6;
+}
+
+.directions__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 172px;
+}
+
+.directions__content {
+  flex-basis: 378px;
+  background-image: url(../img/directions-bg.png);
+  background-position: 0 0;
+}
+
+.directions__subtitle {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  color: #444444;
+  margin-bottom: 98px;
+}

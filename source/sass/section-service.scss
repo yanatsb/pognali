@@ -32,11 +32,13 @@
     // background: $main-yellow;
     border-radius: 20px;
     padding: 29px 35px 27px 32px;
-    max-width: 274px;
+    width: 275px;
 }
-.more-btn::after{
-    content: '';
-    width: 14px;
-    height: 14px;
-    background-color: #1D2E5B;
-}
+// .more-btn::after{
+//     position: absolute;
+//     top: 8px;;
+//     left: 9px;
+//     content: '';
+//     width: 14px;
+//     height: 14px;
+// }

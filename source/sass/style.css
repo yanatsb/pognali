@@ -353,6 +353,36 @@ body {
   background: #FFD74B;
   border-radius: 20px;
   padding: 29px 35px 27px 32px;
-  max-width: 274px;
+  width: 275px;
+}
+
+.directions {
+  background: #EDEFF6;
+}
+
+.directions__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 172px;
+}
+
+.directions__content {
+  -ms-flex-preferred-size: 378px;
+      flex-basis: 378px;
+}
+
+.directions__subtitle {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  color: #444444;
+  margin-bottom: 98px;
 }
 /*# sourceMappingURL=style.css.map */

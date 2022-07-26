@@ -1,0 +1,27 @@
+.companion {
+  background: #192144;
+  background-image: url("../img/companion-bg1.png"), url("../img/companion-bg2.png");
+  background-repeat: no-repeat;
+  background-position: 0 0, 100% 100%;
+}
+
+.companion__content {
+  max-width: 428px;
+}
+
+.companion__subtitle {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-bottom: 42px;
+}
+
+.companion__text {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 85px;
+  max-width: 260px;
+}

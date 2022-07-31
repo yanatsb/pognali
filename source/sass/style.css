@@ -752,6 +752,19 @@ body {
     font-size: 0;
     padding-top: 12px;
   }
+  .form {
+    margin-bottom: 60px;
+  }
+  .intrested__text {
+    margin-bottom: 64px;
+  }
+  .intrested__contacts {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .intrested__contacts-number {
+    margin-bottom: 39px;
+  }
 }
 
 .map__wrapper {

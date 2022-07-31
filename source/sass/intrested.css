@@ -36,18 +36,6 @@
   border-radius: 20px 0 0 20px;
 }
 
-.form-email::-webkit-input-placeholder {
-  opacity: 0.3;
-}
-
-.form-email:-ms-input-placeholder {
-  opacity: 0.3;
-}
-
-.form-email::-ms-input-placeholder {
-  opacity: 0.3;
-}
-
 .form-email::placeholder {
   opacity: 0.3;
 }
@@ -78,15 +66,9 @@
 }
 
 .intrested__contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   gap: 231px;
   font-weight: 700;
   font-size: 28px;
@@ -145,5 +127,14 @@
     font-size: 0;
     padding-top: 12px;
   }
+  .form {
+    margin-bottom: 60px;
+  }
+  .intrested__text {
+    margin-bottom: 64px;
+  }
+  .intrested__contacts {
+    flex-direction: column;
+    gap: 39px;
+  }
 }
-/*# sourceMappingURL=intrested.css.map */

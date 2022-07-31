@@ -12,7 +12,9 @@ body{
 }
 .header{
     height: 100vh;
-    background-image: url(../img/header-bg.png);
+    background-image: url(../img/traveller-illustration.png), url(../img/header-bg.png);
+    background-position: top 110px left 604px, center;
+    background-repeat: no-repeat;
 }
 .header__top{
     display: flex;
@@ -162,4 +164,17 @@ body{
     background: #FFD74B;
     position: relative;
     left: -90px;
+  }
+
+
+
+  @media (max-width:768px){
+    .container{
+      padding: 40px;
+    }
+  }
+  @media (max-width:320px){
+    .container{
+      padding: 25px;
+    }
   }

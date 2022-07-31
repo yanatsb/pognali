@@ -27,9 +27,12 @@
     align-items: center;
     background: #FFFFFF;
     border-radius: 20px;
-    padding: 24px 28px 21px;
     margin-bottom: 10px;
     width: 560px;
+    position: relative;
+}
+.directions__example-wrapper{
+    padding: 24px 28px 21px;
 }
 .directions__example-title{
     font-weight: 700;
@@ -64,3 +67,13 @@
     width: 24px;
     height: 24px;
 }
+// .directions__example-img::before{
+//     content: '';
+//     position: absolute;
+//     top: 10px;
+//     right: 50px;
+//     background-image: url(../img/thailand.svg);
+//     background-repeat: no-repeat;
+//     width: 70px;
+//     height: 47px;
+// }

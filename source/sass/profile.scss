@@ -1,0 +1,90 @@
+.profile{
+    background: #EDEFF6;
+}
+.profile__title{
+    text-align: center;
+    margin-top: 107px;
+    margin-bottom: 83px;
+}
+.profile__wrapper{
+    max-width: 1177px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 165px;
+}
+.profile__list{
+    margin-bottom: 59px;
+}
+.profile__item{
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 28px;
+    color: #444444;
+    // border-top: 1px solid #E1E3E9;
+    // border-bottom: 1px solid #E1E3E9;
+    margin-bottom: 39px;
+}
+.profile__item-number1,
+.profile__item-number2,
+.profile__item-number3{
+    position: relative;
+    padding-left: 89px;
+}
+.profile__item-number1::before,
+.profile__item-number2::before,
+.profile__item-number3::before{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    background-repeat: no-repeat;
+    width: 68px;
+    height: 68px;
+    padding: 20px;
+    padding-left: 26px;
+    border-radius: 50%;
+}
+.profile__item-number1::before{
+    content: '1';
+    background-color: #FF8D30;
+}
+.profile__item-number2::before{
+    content: '2';
+    background-color: #FFBD30;
+}
+.profile__item-number3::before{
+    content: '3';
+    background-color:  #FFD74B;
+}
+.profile__link{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #132576;
+    padding-left: 89px;
+    position: relative;
+}
+.profile__link::before{
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    background-color: #E2E5F2;
+    background-image: url(../img/icon-business.svg);
+    background-position: 20px 18px;
+    background-repeat: no-repeat;
+    width: 68px;
+    height: 68px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.profile__price{
+    // width: 446px;
+    // height: 300px;
+    // background-color: #E2E5F2;
+    // background-image: url(../img/profile__price-bg.svg);
+    // background-repeat: no-repeat;
+    // background-position: top 50% right -50px;
+    // border-radius: 20px;
+}

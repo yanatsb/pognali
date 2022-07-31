@@ -2,7 +2,7 @@
   background: #192144;
   background-image: url("../img/companion-bg1.png"), url("../img/companion-bg2.png");
   background-repeat: no-repeat;
-  background-position: 0 0, 100% 100%;
+  background-position: top 134px left 487px, bottom 80px left 190px;
 }
 
 .companion__content {
@@ -25,3 +25,4 @@
   margin-bottom: 85px;
   max-width: 260px;
 }
+/*# sourceMappingURL=companion.css.map */

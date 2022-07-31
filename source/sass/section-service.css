@@ -1,5 +1,8 @@
 .service {
   background: #192144;
+  background-image: url(../img/service.png);
+  background-repeat: no-repeat;
+  background-position: center right 60px;
 }
 
 .service__content {
@@ -14,6 +17,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 619px;
+  margin-bottom: 163px;
 }
 
 .title {
@@ -43,5 +47,19 @@
   border-radius: 20px;
   padding: 29px 35px 27px 32px;
   width: 275px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1D2E5B;
+  position: relative;
+}
+
+.more-btn::after {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  content: '';
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 14px solid #1D2E5B;
 }
 /*# sourceMappingURL=section-service.css.map */

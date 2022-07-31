@@ -44,9 +44,13 @@
           align-items: center;
   background: #FFFFFF;
   border-radius: 20px;
-  padding: 24px 28px 21px;
   margin-bottom: 10px;
   width: 560px;
+  position: relative;
+}
+
+.directions__example-wrapper {
+  padding: 24px 28px 21px;
 }
 
 .directions__example-title {

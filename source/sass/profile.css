@@ -5,25 +5,38 @@
 .profile__title {
   text-align: center;
   margin-top: 107px;
-  margin-bottom: 83px;
+  margin-bottom: 134px;
 }
 
 .profile__wrapper {
   max-width: 1177px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 165px;
 }
 
-.profile__list {
+.profile__price {
+  background: #E2E5F2;
+  border-radius: 20px;
+  padding: 50px 161px 50px 155px;
+  margin-top: -51px;
+  position: relative;
+}
+
+.profile__price::after {
+  content: '';
+  position: absolute;
+  width: 198px;
+  height: 198px;
+  top: 52px;
+  right: -111px;
+  background-image: url(../img/rates.svg);
+  background-repeat: no-repeat;
+}
+
+.profile__list-benefits {
   margin-bottom: 59px;
 }
 
@@ -32,7 +45,6 @@
   font-size: 28px;
   line-height: 28px;
   color: #444444;
-  margin-bottom: 39px;
 }
 
 .profile__item-number1,
@@ -94,4 +106,3 @@
   padding: 20px;
   border-radius: 50%;
 }
-/*# sourceMappingURL=profile.css.map */

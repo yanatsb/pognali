@@ -27,14 +27,3 @@
     align-items: center;
     gap: 24px;
 }
-
-@media (max-width:320px){
-    .footer__container{
-        flex-direction: column;
-        gap: 40px;
-    }
-    .footer__developed{
-        justify-content: space-between;
-        gap: 100px;
-    }
-}

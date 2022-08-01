@@ -311,18 +311,6 @@ body {
   left: -90px;
 }
 
-@media (max-width: 768px) {
-  .container {
-    padding: 40px;
-  }
-}
-
-@media (max-width: 320px) {
-  .container {
-    padding: 25px;
-  }
-}
-
 .service {
   background: #192144;
   background-image: url(../img/service.png);
@@ -515,7 +503,7 @@ body {
 .profile__title {
   text-align: center;
   margin-top: 107px;
-  margin-bottom: 83px;
+  margin-bottom: 134px;
 }
 
 .profile__wrapper {
@@ -533,7 +521,26 @@ body {
   margin-bottom: 165px;
 }
 
-.profile__list {
+.profile__price {
+  background: #E2E5F2;
+  border-radius: 20px;
+  padding: 50px 161px 50px 155px;
+  margin-top: -51px;
+  position: relative;
+}
+
+.profile__price::after {
+  content: '';
+  position: absolute;
+  width: 198px;
+  height: 198px;
+  top: 52px;
+  right: -111px;
+  background-image: url(../img/rates.svg);
+  background-repeat: no-repeat;
+}
+
+.profile__list-benefits {
   margin-bottom: 59px;
 }
 
@@ -542,6 +549,9 @@ body {
   font-size: 28px;
   line-height: 28px;
   color: #444444;
+}
+
+.profile__item:not(:last-child) {
   margin-bottom: 39px;
 }
 
@@ -739,34 +749,6 @@ body {
   border-radius: 50%;
 }
 
-@media (max-width: 768px) {
-  .intrested {
-    padding-top: 76px;
-    padding-bottom: 77px;
-  }
-  .form-email {
-    width: 536px;
-  }
-  .registration-btn {
-    width: 80px;
-    font-size: 0;
-    padding-top: 12px;
-  }
-  .form {
-    margin-bottom: 60px;
-  }
-  .intrested__text {
-    margin-bottom: 64px;
-  }
-  .intrested__contacts {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .intrested__contacts-number {
-    margin-bottom: 39px;
-  }
-}
-
 .map__wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -840,51 +822,6 @@ body {
   height: 394px;
 }
 
-@media (max-width: 768px) {
-  .map__wrapper {
-    padding: 70px 75px 84px;
-    gap: 62px;
-  }
-  .map__btn {
-    width: 100%;
-  }
-  .map__adress {
-    padding-left: 94px;
-  }
-  .map__adress::before {
-    top: -24px;
-    left: -26px;
-    width: 68px;
-    height: 68px;
-    padding: 18px;
-  }
-}
-
-@media (max-width: 320px) {
-  .map__wrapper {
-    padding: 30px 25px 35px;
-    gap: 32px;
-  }
-  .map__btn {
-    font-size: 18px;
-    line-height: 18px;
-    max-width: 270px;
-  }
-  .map__adress {
-    font-size: 16px;
-    line-height: 22px;
-    padding-left: 61px;
-  }
-  .map__adress::before {
-    top: -7px;
-    left: 0;
-    width: 45px;
-    height: 45px;
-    padding: 12px;
-    background-size: 21px;
-  }
-}
-
 .footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -935,7 +872,147 @@ body {
   gap: 24px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+}
+
 @media (max-width: 320px) {
+  .container {
+    padding: 25px;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 19px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intrested {
+    padding-top: 76px;
+    padding-bottom: 77px;
+  }
+  .form-email {
+    width: 536px;
+  }
+  .registration-btn {
+    width: 80px;
+    font-size: 0;
+    padding-top: 12px;
+  }
+  .form {
+    margin-bottom: 60px;
+  }
+  .intrested__text {
+    margin-bottom: 64px;
+  }
+  .intrested__contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 39px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-left: 60px;
+  }
+  .intrested__contacts-number,
+  .intrested__contacts-mail {
+    padding-left: 94px;
+  }
+  .intrested__contacts-number::before,
+  .intrested__contacts-mail::before {
+    top: -24px;
+    left: -26px;
+    width: 68px;
+    height: 68px;
+    padding: 18px;
+    background-size: 27px;
+  }
+  .map__wrapper {
+    padding: 70px 75px 84px;
+    gap: 62px;
+  }
+  .map__btn {
+    width: 100%;
+  }
+  .map__adress {
+    padding-left: 94px;
+  }
+  .map__adress::before {
+    top: -24px;
+    left: -26px;
+    width: 68px;
+    height: 68px;
+    padding: 18px;
+    background-size: 27px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intrested {
+    padding-top: 72px;
+    padding-bottom: 44px;
+  }
+  .form {
+    margin-bottom: 28px;
+  }
+  .intrested__text {
+    margin-bottom: 29px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .form-email {
+    width: 220px;
+  }
+  .registration-btn {
+    width: 60px;
+    margin-left: -15px;
+  }
+  .intrested__contacts {
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 30px;
+  }
+  .intrested__contacts-number,
+  .intrested__contacts-mail {
+    padding-left: 50px;
+  }
+  .intrested__contacts-number::before,
+  .intrested__contacts-mail::before {
+    top: -12px;
+    left: -16px;
+    width: 45px;
+    height: 45px;
+    padding: 14px;
+    background-size: 18px;
+  }
+  .map__wrapper {
+    padding: 30px 25px 35px;
+    gap: 32px;
+  }
+  .map__btn {
+    font-size: 18px;
+    line-height: 18px;
+    max-width: 270px;
+  }
+  .map__adress {
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 61px;
+  }
+  .map__adress::before {
+    top: -7px;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    padding: 12px;
+    background-size: 21px;
+  }
   .footer__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

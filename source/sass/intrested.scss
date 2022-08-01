@@ -108,31 +108,3 @@
     padding: 27px;
     border-radius: 50%;
 }
-
-@media (max-width:768px){
-    .intrested{
-        padding-top: 76px;
-        padding-bottom: 77px;
-    }
-    .form-email{
-        width: 536px;
-    }
-    .registration-btn{
-        width: 80px;
-        font-size: 0;
-        padding-top: 12px;
-    }
-    .form{
-        margin-bottom: 60px;
-    }
-    .intrested__text{
-        margin-bottom: 64px;
-    }
-    .intrested__contacts{
-        flex-direction: column;
-        gap: 39px;
-    }
-  }
-  @media (max-width:320px){
-    
-  }

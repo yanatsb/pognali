@@ -549,9 +549,6 @@ body {
   font-size: 28px;
   line-height: 28px;
   color: #444444;
-}
-
-.profile__item:not(:last-child) {
   margin-bottom: 39px;
 }
 
@@ -890,6 +887,22 @@ body {
 }
 
 @media (max-width: 768px) {
+  .profile__title {
+    margin-top: 74px;
+    margin-bottom: 93px;
+  }
+  .profile__wrapper {
+    margin-bottom: 85px;
+  }
+  .profile__price {
+    padding: 62px 34px;
+  }
+  .profile__price::after {
+    width: 100px;
+    height: 100px;
+    bottom: -20px;
+    right: -20px;
+  }
   .intrested {
     padding-top: 76px;
     padding-bottom: 77px;

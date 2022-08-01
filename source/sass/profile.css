@@ -28,12 +28,11 @@
 .profile__price::after {
   content: '';
   position: absolute;
-  width: 198px;
-  height: 198px;
   top: 52px;
   right: -111px;
   background-image: url(../img/rates.svg);
   background-repeat: no-repeat;
+  background-size: 198px;
 }
 
 .profile__list-benefits {
@@ -45,6 +44,7 @@
   font-size: 28px;
   line-height: 28px;
   color: #444444;
+  margin-bottom: 39px;
 }
 
 .profile__item-number1,

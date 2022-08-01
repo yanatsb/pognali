@@ -16,6 +16,21 @@
 }
 
 @media (max-width: 768px) {
+  .profile__title {
+    margin-top: 74px;
+    margin-bottom: 93px;
+  }
+  .profile__wrapper {
+    margin-bottom: 85px;
+  }
+  .profile__price {
+    padding: 62px 34px;
+  }
+  .profile__price::after {
+    background-size: 100px;
+    bottom: -20px;
+    right: -20px;
+  }
   .intrested {
     padding-top: 76px;
     padding-bottom: 77px;
@@ -35,22 +50,17 @@
     margin-bottom: 64px;
   }
   .intrested__contacts {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 39px;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    align-items: flex-start;
     padding-left: 60px;
   }
   .intrested__contacts-number,
-  .intrested__contacts-mail {
+.intrested__contacts-mail {
     padding-left: 94px;
   }
   .intrested__contacts-number::before,
-  .intrested__contacts-mail::before {
+.intrested__contacts-mail::before {
     top: -24px;
     left: -26px;
     width: 68px;
@@ -105,11 +115,11 @@
     padding-left: 30px;
   }
   .intrested__contacts-number,
-  .intrested__contacts-mail {
+.intrested__contacts-mail {
     padding-left: 50px;
   }
   .intrested__contacts-number::before,
-  .intrested__contacts-mail::before {
+.intrested__contacts-mail::before {
     top: -12px;
     left: -16px;
     width: 45px;
@@ -140,17 +150,11 @@
     background-size: 21px;
   }
   .footer__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 40px;
   }
   .footer__developed {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     gap: 100px;
   }
 }
-/*# sourceMappingURL=media.css.map */

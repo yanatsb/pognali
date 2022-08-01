@@ -19,6 +19,21 @@
 
 
 @media (max-width:768px){
+    .profile__title{
+        margin-top: 74px;
+        margin-bottom: 93px;
+    }
+    .profile__wrapper{
+        margin-bottom: 85px;
+    }
+    .profile__price{
+        padding: 62px 34px;
+    }
+    .profile__price::after{
+        background-size: 100px;
+        bottom: -20px;
+        right: -20px;
+    }
     .intrested{
         padding-top: 76px;
         padding-bottom: 77px;

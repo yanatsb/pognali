@@ -532,12 +532,11 @@ body {
 .profile__price::after {
   content: '';
   position: absolute;
-  width: 198px;
-  height: 198px;
   top: 52px;
   right: -111px;
   background-image: url(../img/rates.svg);
   background-repeat: no-repeat;
+  background-size: 198px;
 }
 
 .profile__list-benefits {
@@ -898,8 +897,7 @@ body {
     padding: 62px 34px;
   }
   .profile__price::after {
-    width: 100px;
-    height: 100px;
+    background-size: 100px;
     bottom: -20px;
     right: -20px;
   }

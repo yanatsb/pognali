@@ -8,7 +8,7 @@
 .companion__container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 .companion__content{
@@ -77,5 +77,6 @@
     margin: 0 auto 27px;
 }
 .more-btn-companion{
-    flex-basis: 100%;
+    max-width: 100%;
+    margin-top: -80px;
 }

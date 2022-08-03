@@ -1,11 +1,11 @@
 @media (max-width:768px){
     .container{
-      padding: 40px;
+      padding: 0 40px;
     }
   }
   @media (max-width:320px){
     .container{
-      padding: 25px;
+      padding: 0 25px;
     }
     .title{
       font-size: 24px;
@@ -19,6 +19,17 @@
 
 
 @media (max-width:768px){
+    .companion{
+        padding: 141px 34px 87px;
+        background-position: top 426px left 40px, top 80px right 74px;
+    }
+    .companion__text{
+        margin-bottom: 59px;
+    }
+    .more-btn-companion{
+        width: 100%;
+        margin-top: 81px;
+    }
     .profile__title{
         margin-top: 74px;
         margin-bottom: 93px;
@@ -93,6 +104,27 @@
     }
   }
   @media (max-width: 320px){
+    .companion{
+          padding: 0;
+    }
+    .companion__content{
+        padding: 68px 29px 31px 26px;
+    }
+    .companion__subtitle{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 25px;
+    }
+    .companion__text{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 54px;
+    }
+    .companion__cards{
+        flex-wrap: wrap;
+        gap: 9px;
+    }
     .profile__title{
         font-size: 24px;
         line-height: 24px;

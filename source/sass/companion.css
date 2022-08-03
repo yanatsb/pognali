@@ -1,12 +1,19 @@
 .companion {
+  padding: 130px 0 134px 69px;
   background: #192144;
   background-image: url("../img/companion-bg1.png"), url("../img/companion-bg2.png");
   background-repeat: no-repeat;
   background-position: top 134px left 487px, bottom 80px left 190px;
 }
 
+.companion__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .companion__content {
-  max-width: 428px;
+  max-width: 497px;
 }
 
 .companion__subtitle {
@@ -25,4 +32,46 @@
   margin-bottom: 85px;
   max-width: 260px;
 }
-/*# sourceMappingURL=companion.css.map */
+
+.companion__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 630px;
+}
+
+.companion__card {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  flex-basis: 285px;
+  border-radius: 20px;
+}
+
+.companion__card-avatar {
+  border-radius: 20px 20px 0 0;
+}
+
+.companion__card-flag {
+  margin: -11px auto 19px;
+}
+
+.companion__card-title {
+  font-size: 24px;
+  line-height: 22px;
+  color: #1D2E5B;
+  margin-bottom: 23px;
+}
+
+.companion__card-hashtag {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #444444;
+  margin-bottom: 24px;
+}
+
+.companion__card-transport {
+  margin: 0 auto 27px;
+}

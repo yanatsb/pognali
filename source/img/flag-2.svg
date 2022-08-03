@@ -1,0 +1,14 @@
+<svg width="145" height="25" viewBox="0 0 145 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="83" width="35" height="25" fill="url(#pattern0)"/>
+<rect x="28" y="1" width="35" height="24" fill="url(#pattern1)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_2273_784" transform="translate(-0.0319149) scale(0.0151976 0.0212766)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1_2273_784" transform="scale(0.0285714 0.0416667)"/>
+</pattern>
+<image id="image0_2273_784" width="70" height="47" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAvCAYAAABe1bwWAAADg0lEQVRogeWbb0hdZRjAf/fMXIEsCpcJRQsM2pDNsYpG0J8v0ofYPkgFFfSlOfoQMcamgiIVZKlFRIHGQBhCsDGGrKD8VF7/ZJpeFR25TadO5/yTXp1/rru+bzzXKwzhqlfP8dy95/fl3nMuvOd5fjyc877Pe67vp+oA7+ccIMqbwEngZSAN8GE2GrgD/AVUAr+tZrtrKfkN5hfCD2dlplX7fJQAzwMpHpBCNMeUaM4fAPuBX4HwrozMt+m98V/VdDD03pFDafh8XvARk0zgGeCyiMkGym7cnGZsYp4Xs9K9Lucg0CRiSqMlxM2hIMOjs7x0OB3L8rScFAt49f4zDX8PU/ZjM/fCyr2w3OeoiEldG0ZLYJQvv2sitLTsQScRnrBi/dLRPcYX3zTIE2tnQ0oMrJhihJ7eST4vr+fu3D0POVlhXTFCb98UxWX1zMyGdiikxGBDMUL/wDSFX/mZml70gJIVNiVGuDUyS2FJHeOT8w6HlBhsWoxwe2yOwhJ/5NN04hIjSMVI5UgFmUzcYgS51xR97ad/MGismi2JEYIzIYpL/Vzrm7I3ogRhy2IEmd98Vl4fme+YxrbECDIzlhmyzJRNYttiBFlTydqqtWPUGDW2iBFkNV76QzONLcN2DekqtokRwmHFtxUt/Nk4+OCZWIOtYgSlNN+fa6P2j367h95RbBcjaK2pPB/gSu31xM18AxwRQ0QOVP3cxaVf/nXqEo6S5OTg0jVWF2tYvDDgfqZx4pgYC81H6iqv6xGnLuEojoh5CMUnqosX9HjiZBontot5hDCnVQcH9IO9hrJVzB6WyFMBntUzdg7rCraJSWWRguU20jGjw2eLmKf0HPmqjccxp2G+bTEZOshZFSAFs7ZYtiXmoJ7klOpkN+btWG5ZzFF9h49VN0mYuce9JTHZeogPVS++yAtJZhK3mBzdR47qM1bIKpsWI9UhVSLV4gU2JUbuIydVD69oc1qXG7GhGHnifKo6ydLm7QSsx7piZG5yRgV4Tpu7sRaLmGIeI0S+audpfdf1IN1AxEysfd3sSeYpWG5nLwueEbGGSWlt+u8/t0/PUrzc6mUpQp2IqVg9kh5KkfqHR1lyNyz3qRQxtUD1ET1OnmqPNJo8TjXwe+Tm+5oeyT2hriZb6Hc8LuUikCtfrLf0ALmqZ8FCvwscA2qi/8jwCpKr5HwckMJYAPgfWyk7qoZ9+QUAAAAASUVORK5CYII="/>
+<image id="image1_2273_784" width="35" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAYCAYAAABwZEQ3AAAAvElEQVRIie3XoQrCUBSA4f8OHSvCQN/IZjYvGC0Wy3yAlVlW9PlsCwpjZaCwyRlTLGdNdsL9y+XCgfvBTcetN1uAI7AHVijdypY0idglEU3ZamN9LoKuhiaf96fcR7oDF+A8Aw5APjr+3xbD+68AOE0I+S0VTGwEEwvmaQDC55s6AxCpCwwgvnmMlsdoeYyWx2h5jJbHaAnGGbE4wYQGIFIomMoARKoEkxmASJlsB8XwVbKqLCdAPIArULwBnSIekSkprtAAAAAASUVORK5CYII="/>
+</defs>
+</svg>

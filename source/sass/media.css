@@ -28,8 +28,10 @@
   }
   .profile__price::after {
     background-size: 100px;
-    bottom: -20px;
-    right: -20px;
+    width: 100px;
+    height: 100px;
+    top: 299px;
+    right: 46px;
   }
   .intrested {
     padding-top: 76px;
@@ -94,6 +96,85 @@
 }
 
 @media (max-width: 320px) {
+  .profile__title {
+    font-size: 24px;
+    line-height: 24px;
+    max-width: 107px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 56px;
+  }
+  .profile__title::after {
+    content: '';
+    position: absolute;
+    right: -160px;
+    top: -14px;
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/rates.svg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+  }
+  .profile__wrapper {
+    margin-bottom: 38px;
+  }
+  .profile__benefits {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .profile__item {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .profile__item-number1::before,
+  .profile__item-number2::before,
+  .profile__item-number3::before {
+    display: none;
+  }
+  .profile__item-number1,
+  .profile__item-number2,
+  .profile__item-number3 {
+    padding-left: 0;
+  }
+  .profile__item-number1::after,
+  .profile__item-number2::after,
+  .profile__item-number3::after {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 34px;
+    padding: 10px 13px;
+    border-radius: 50%;
+  }
+  .profile__item-number1::after {
+    content: '1';
+    background-color: #FF8D30;
+  }
+  .profile__item-number2::after {
+    content: '2';
+    background-color: #FFBD30;
+  }
+  .profile__item-number3::after {
+    content: '3';
+    background-color: #FFD74B;
+  }
+  .profile__list-benefits {
+    margin-bottom: 46px;
+  }
+  .profile__price {
+    display: none;
+  }
+  .profile__link {
+    padding-left: 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .profile__link::before {
+    display: none;
+  }
   .intrested {
     padding-top: 72px;
     padding-bottom: 44px;

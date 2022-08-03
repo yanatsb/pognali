@@ -19,6 +19,8 @@
 
 
 @media (max-width:768px){
+  
+    
     .companion{
         padding: 141px 34px 87px;
         background-position: top 426px left 40px, top 80px right 74px;
@@ -105,10 +107,12 @@
   }
   @media (max-width: 320px){
     .companion{
-          padding: 0;
+        padding: 0;
+        background-position: top 34px left 152px, top 306px left;
+        background-size: auto, 64px 71px;
     }
     .companion__content{
-        padding: 68px 29px 31px 26px;
+        padding: 68px 29px 0 26px;
     }
     .companion__subtitle{
         font-weight: 300;
@@ -124,6 +128,10 @@
     .companion__cards{
         flex-wrap: wrap;
         gap: 9px;
+    }
+    .more-btn-companion{
+        margin-top: 20px;
+        margin-bottom: 31px;
     }
     .profile__title{
         font-size: 24px;

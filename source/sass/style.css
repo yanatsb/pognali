@@ -534,6 +534,10 @@ body {
   border-radius: 20px;
 }
 
+.companion__card-avatar {
+  border-radius: 20px 20px 0 0;
+}
+
 .companion__card-flag {
   margin: -11px auto 19px;
 }

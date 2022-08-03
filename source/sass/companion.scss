@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .companion__content{
     max-width: 497px;
@@ -74,4 +75,7 @@
 }
 .companion__card-transport{
     margin: 0 auto 27px;
+}
+.more-btn-companion{
+    flex-basis: 100%;
 }

@@ -325,6 +325,7 @@ body {
 }
 
 .service {
+  padding: 42px 0 163px 70px;
   background: #192144;
   background-image: url(../img/service.png);
   background-repeat: no-repeat;
@@ -343,7 +344,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 619px;
-  margin-bottom: 163px;
 }
 
 .title {

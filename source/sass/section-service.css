@@ -4,6 +4,7 @@
   background-image: url(../img/service.png);
   background-repeat: no-repeat;
   background-position: center right 60px;
+  border-radius: 0 0 60px 60px;
 }
 
 .service__content {
@@ -11,7 +12,6 @@
   flex-direction: column;
   justify-content: space-between;
   max-width: 619px;
-  margin-bottom: 163px;
 }
 
 .title {

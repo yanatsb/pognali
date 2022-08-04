@@ -5,12 +5,21 @@
   background-repeat: no-repeat;
   background-position: center right 60px;
   border-radius: 0 0 60px 60px;
+  position: relative;
+  z-index: 7;
 }
 
 .service__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   max-width: 619px;
 }
 
@@ -56,3 +65,4 @@
   border-bottom: 8px solid transparent;
   border-left: 14px solid #1D2E5B;
 }
+/*# sourceMappingURL=section-service.css.map */

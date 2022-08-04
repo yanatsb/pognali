@@ -1,10 +1,15 @@
 .profile {
+  position: relative;
+  z-index: 4;
   background: #EDEFF6;
+  padding-top: 157px;
+  padding-bottom: 107px;
+  margin-top: -50px;
+  border-radius: 0 0 60px 60px;
 }
 
 .profile__title {
   text-align: center;
-  margin-top: 107px;
   margin-bottom: 134px;
 }
 
@@ -20,7 +25,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 165px;
 }
 
 .profile__price {

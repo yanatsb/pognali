@@ -19,7 +19,30 @@
 
 
 @media (max-width:768px){
-  
+    .directions{
+        background-position: top 130px right 40px;
+    }
+    .directions__container{
+        padding: 123px 76px 80px;
+        justify-content: center;
+    }
+    .directions__content{
+        order: 1;
+        margin-right: auto;
+    }
+    .directions__example{
+        order: 2;
+        margin-bottom: 46px;
+    }
+    .more-btn-directions{
+        order: 3;
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .directions__subtitle{
+        margin-bottom: 104px;
+    }
+
     
     .companion{
         padding: 141px 34px 87px;
@@ -106,6 +129,12 @@
     }
   }
   @media (max-width: 320px){
+    .directions__example-card{
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 270px;
+    }
+
     .companion{
         padding: 0;
         background-position: top 34px left 152px, top 306px left;
@@ -132,6 +161,10 @@
     .more-btn-companion{
         margin-top: 20px;
         margin-bottom: 31px;
+    }
+    .profile{
+        padding-top: 87px;
+        padding-bottom: 38px;
     }
     .profile__title{
         font-size: 24px;

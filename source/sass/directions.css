@@ -1,24 +1,28 @@
 .directions {
+  position: relative;
+  z-index: 6;
   background: #EDEFF6;
   background-image: url(../img/directions-bg.png);
-  background-position: top 88px right 60px;
+  background-position: top 138px right 60px;
   background-repeat: no-repeat;
+  margin-top: -50px;
+  border-radius: 0 0 60px 60px;
 }
 
 .directions__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 172px;
-  padding: 161px 140px 138px 70px;
+  padding: 211px 140px 138px 70px;
+}
+
+.directions__example {
+  margin-right: auto;
 }
 
 .directions__content {
@@ -90,5 +94,12 @@
   background-image: url(../img/icon-user.svg);
   width: 24px;
   height: 24px;
+}
+
+.more-btn-directions {
+  -ms-flex-preferred-size: 24%;
+      flex-basis: 24%;
+  margin-top: -60px;
+  margin-right: 80px;
 }
 /*# sourceMappingURL=directions.css.map */

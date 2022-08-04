@@ -331,6 +331,8 @@ body {
   background-repeat: no-repeat;
   background-position: center right 60px;
   border-radius: 0 0 60px 60px;
+  position: relative;
+  z-index: 7;
 }
 
 .service__content {
@@ -391,26 +393,30 @@ body {
 }
 
 .directions {
+  position: relative;
+  z-index: 6;
   background: #EDEFF6;
   background-image: url(../img/directions-bg.png);
-  background-position: top 88px right 60px;
+  background-position: top 138px right 60px;
   background-repeat: no-repeat;
+  margin-top: -50px;
+  border-radius: 0 0 60px 60px;
 }
 
 .directions__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 172px;
-  padding: 161px 140px 138px 70px;
+  padding: 211px 140px 138px 70px;
+}
+
+.directions__example {
+  margin-right: auto;
 }
 
 .directions__content {
@@ -484,12 +490,23 @@ body {
   height: 24px;
 }
 
+.more-btn-directions {
+  -ms-flex-preferred-size: 24%;
+      flex-basis: 24%;
+  margin-top: -60px;
+  margin-right: 80px;
+}
+
 .companion {
-  padding: 130px 0 134px 69px;
+  position: relative;
+  z-index: 5;
+  padding: 180px 0 134px 69px;
   background: #192144;
   background-image: url("../img/companion-bg1.png"), url("../img/companion-bg2.png");
   background-repeat: no-repeat;
   background-position: top 134px left 487px, bottom 80px left 190px;
+  margin-top: -50px;
+  border-radius: 0 0 60px 60px;
 }
 
 .companion__container {
@@ -585,12 +602,17 @@ body {
 }
 
 .profile {
+  position: relative;
+  z-index: 4;
   background: #EDEFF6;
+  padding-top: 157px;
+  padding-bottom: 107px;
+  margin-top: -50px;
+  border-radius: 0 0 60px 60px;
 }
 
 .profile__title {
   text-align: center;
-  margin-top: 107px;
   margin-bottom: 134px;
 }
 
@@ -606,7 +628,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 165px;
 }
 
 .profile__price {
@@ -701,10 +722,13 @@ body {
 }
 
 .intrested {
+  position: relative;
+  z-index: 3;
   background: #192144;
   text-align: center;
-  padding-top: 109px;
+  padding-top: 159px;
   padding-bottom: 103px;
+  margin-top: -50px;
 }
 
 .intrested__text {
@@ -835,6 +859,8 @@ body {
 }
 
 .map__wrapper {
+  position: relative;
+  z-index: 2;
   max-width: 1440px;
   margin: 0 auto;
   display: -webkit-box;
@@ -904,7 +930,8 @@ body {
 
 .map-iframe {
   width: 100%;
-  height: 394px;
+  height: 444px;
+  margin-top: -50px;
 }
 
 .footer__container {
@@ -975,6 +1002,38 @@ body {
 }
 
 @media (max-width: 768px) {
+  .directions {
+    background-position: top 130px right 40px;
+  }
+  .directions__container {
+    padding: 123px 76px 80px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .directions__content {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-right: auto;
+  }
+  .directions__example {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-bottom: 46px;
+  }
+  .more-btn-directions {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin: 0;
+  }
+  .directions__subtitle {
+    margin-bottom: 104px;
+  }
   .companion {
     padding: 141px 34px 87px;
     background-position: top 426px left 40px, top 80px right 74px;
@@ -1066,6 +1125,14 @@ body {
 }
 
 @media (max-width: 320px) {
+  .directions__example-card {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 270px;
+  }
   .companion {
     padding: 0;
     background-position: top 34px left 152px, top 306px left;
@@ -1093,6 +1160,10 @@ body {
   .more-btn-companion {
     margin-top: 20px;
     margin-bottom: 31px;
+  }
+  .profile {
+    padding-top: 87px;
+    padding-bottom: 38px;
   }
   .profile__title {
     font-size: 24px;

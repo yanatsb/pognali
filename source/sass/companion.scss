@@ -1,9 +1,13 @@
 .companion{
-    padding: 130px 0 134px 69px;
+    position: relative;
+    z-index: 5;
+    padding: 180px 0 134px 69px;
     background: #192144;
     background-image: url('../img/companion-bg1.png'),url('../img/companion-bg2.png');
     background-repeat: no-repeat;
     background-position: top 134px left 487px, bottom 80px left 190px;
+    margin-top: -50px;
+    border-radius: 0 0 60px 60px;
 }
 .companion__container{
     display: flex;

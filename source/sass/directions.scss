@@ -12,6 +12,7 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    gap: 30px;
     padding: 211px 140px 138px 70px;
 }
 .directions__example{
@@ -85,7 +86,7 @@
 // }
 .more-btn-directions{
     flex-basis: 24%;
-    margin-top: -60px;
+    margin-top: -66px;
     margin-right: 80px;
 }
 

@@ -18,6 +18,7 @@
           justify-content: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 30px;
   padding: 211px 140px 138px 70px;
 }
 
@@ -99,7 +100,7 @@
 .more-btn-directions {
   -ms-flex-preferred-size: 24%;
       flex-basis: 24%;
-  margin-top: -60px;
+  margin-top: -66px;
   margin-right: 80px;
 }
 /*# sourceMappingURL=directions.css.map */

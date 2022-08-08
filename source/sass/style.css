@@ -1048,17 +1048,22 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .directions__container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .directions__content {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    margin-right: auto;
   }
   .directions__example {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
     margin-bottom: 46px;
+    margin-right: 0;
   }
   .more-btn-directions {
     -webkit-box-ordinal-group: 4;
@@ -1103,9 +1108,6 @@ body {
   }
   .directions__container {
     padding: 123px 76px 80px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .companion {
     padding: 141px 34px 87px;

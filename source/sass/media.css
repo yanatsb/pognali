@@ -57,11 +57,13 @@
   }
   .directions__content {
     order: 1;
-    margin-right: auto;
+    text-align: center;
+    flex-basis: 100%;
   }
   .directions__example {
     order: 2;
     margin-bottom: 46px;
+    margin-right: 0;
   }
   .more-btn-directions {
     order: 3;

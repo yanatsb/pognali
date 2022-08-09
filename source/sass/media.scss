@@ -49,6 +49,9 @@
     .form-email{
         width: 550px;
     }
+    .service{
+        background-size: 376px 548px;
+    }
 }
 @media (max-width: 1180px){
 
@@ -97,6 +100,9 @@
         width: 100px;
         font-size: 0;
         padding-top: 12px;
+    }
+    .service__content{
+        max-width: 400px;
     }
 }
 
@@ -300,6 +306,9 @@
         flex-basis: 100%;
         order: 3;
     }
+    .directions__example-amount{
+        margin-left: auto;
+    }
 
     .directions__example-wrapper{
         flex-wrap: wrap;
@@ -360,6 +369,38 @@
     }
   }
   @media (max-width: 470px){
+    .directions__example-wrapper{
+        padding: 24px;
+    }
+    .directions__subtitle{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 60px;
+    }
+    .directions__example-title{
+        font-size: 21px;
+        line-height: 21px;
+    }
+    .directions__example-text{
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 0;
+    }
+    .directions__example-amount{
+        font-size: 16px;
+    }
+    .more-btn-directions{
+        font-size: 18px;
+        line-height: 18px;
+        padding: 22px;
+    }
+    .more-btn-directions::after{
+        top: 25px;
+        right: 20px;
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent;
+        border-left: 10px solid #1D2E5B;
+    }
     .map__wrapper{
         padding: 70px 35px 84px;
     }
@@ -418,7 +459,6 @@
   @media (max-width: 320px){
     .directions__example-card{
         justify-content: center;
-        flex-wrap: wrap;
         width: 270px;
     }
 

@@ -92,6 +92,9 @@
     top: 250px;
     right: 52px;
   }
+  .service__content {
+    max-width: 400px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -100,8 +103,14 @@
     font-size: 0;
     padding-top: 12px;
   }
+}
+
+@media (max-width: 920px) {
+  .service {
+    background-position: center right;
+  }
   .service__content {
-    max-width: 400px;
+    max-width: 309px;
   }
 }
 

@@ -1098,6 +1098,9 @@ body {
     top: 250px;
     right: 52px;
   }
+  .service__content {
+    max-width: 400px;
+  }
 }
 
 @media (max-width: 1000px) {

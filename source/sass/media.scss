@@ -285,6 +285,22 @@
     }
   }
   @media (max-width: 530px){
+    .directions__example-card{
+        flex-wrap: wrap;
+    }
+    .directions__example-img{
+        flex-basis: 100%;
+        order: -1;
+    }
+    .directions__example-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .directions__example-text{
+        flex-basis: 100%;
+        order: 3;
+    }
+
     .directions__example-wrapper{
         flex-wrap: wrap;
     }

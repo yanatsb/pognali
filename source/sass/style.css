@@ -140,10 +140,6 @@ body {
   height: 50px;
 }
 
-.header__burger {
-  display: none;
-}
-
 .header__top-light {
   background-color: #fff;
   color: #192144;

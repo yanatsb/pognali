@@ -76,13 +76,13 @@
 @media (max-width: 1180px){
     .header__burger{
         width: 25px;
-        height: 11px;
+        height: 13px;
         position: relative;
         z-index: 20;
         overflow: hidden;
     }
     .header__burger span {
-        width: 25px;
+        width: 23px;
         height: 3px;
         position: absolute;
         top: 50%;
@@ -90,6 +90,10 @@
         transform: translate(-50%,-50%);
         background-color: #fff;
         transition: all .5s;
+        border-radius: 2px;
+    }
+    .header__burger span:nth-of-type(2) {
+        top: calc(50% + 5px);
     }
     .header__content{
         padding: 72px 32px;

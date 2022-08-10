@@ -54,6 +54,10 @@ body {
   height: 50px;
 }
 
+.header__contacts {
+  display: none;
+}
+
 .header__top-light {
   background-color: #fff;
   color: #192144;

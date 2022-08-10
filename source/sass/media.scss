@@ -21,7 +21,12 @@
     // }
   }
 
-
+  
+@media (max-width: 1390px){
+    .header{
+        background-position: top 110px left 490px, center;
+    }
+}
 @media (max-width: 1320px){
     .companion__container{
         justify-content: center;
@@ -46,6 +51,21 @@
     }
   }
 @media (max-width: 1300px){
+    .header{
+        background-image: url(../img/traveller-illustration-768.svg), url(../img/header-bg.png);
+        background-position: top 345px right 111px, center;
+        background-repeat: no-repeat;
+    }
+    .header__content{
+        flex-wrap: wrap;
+        gap: 86px;
+    }
+    .header__content-left{
+        margin: 0 auto;
+    }
+    .header__content-right{
+        flex-basis: 100%;
+    }
     .form-email{
         width: 550px;
     }
@@ -54,7 +74,41 @@
     }
 }
 @media (max-width: 1180px){
-
+    .header__burger{
+        width: 25px;
+        height: 11px;
+        position: relative;
+        z-index: 20;
+        overflow: hidden;
+    }
+    .header__burger span {
+        width: 25px;
+        height: 3px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: #fff;
+        transition: all .5s;
+    }
+    .header__content{
+        padding: 72px 32px;
+    }
+    .header__list{
+        flex-wrap: wrap;
+    }
+    .header__item{
+        flex-basis: 50%;
+    }
+    .header__item:nth-child(2){
+        left: -40px;
+      }
+      .header__item:nth-child(3){
+        left: 0;
+      }
+      .header__item:nth-child(4){
+        left: -40px;
+      }
     .map__wrapper{
         justify-content: center;
     }
@@ -221,6 +275,10 @@
     }
   }
   @media (max-width: 700px){
+    .service{
+        background-image: url(../img/service-bg.png);
+        background-position: center;
+    }
     .form-email{
         max-width: 300px;
     }
@@ -278,6 +336,9 @@
     // }
   }
   @media (max-width: 600px){
+    .service {
+        padding: 72px 29px 82px;
+    }
     .directions__example-card{
         width: 100%;
         max-width: 560px;
@@ -376,6 +437,22 @@
     }
   }
   @media (max-width: 470px){
+    .service{
+        background-size: 282px 353px;
+    }
+    .service__subtitle{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .service__text{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 0;
+    }
+    .more-btn-service{
+        display: none;
+    }
     .directions__example-wrapper{
         padding: 24px;
     }

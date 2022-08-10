@@ -101,6 +101,7 @@ body {
   background-image: url(../img/traveller-illustration.png), url(../img/header-bg.png);
   background-position: top 110px left 604px, center;
   background-repeat: no-repeat;
+  background-color: #161C35;
 }
 
 .header__top {
@@ -132,6 +133,15 @@ body {
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
+}
+
+.logo {
+  width: 200px;
+  height: 50px;
+}
+
+.header__burger {
+  display: none;
 }
 
 .header__top-light {
@@ -1008,6 +1018,12 @@ body {
   }
 }
 
+@media (max-width: 1390px) {
+  .header {
+    background-position: top 110px left 490px, center;
+  }
+}
+
 @media (max-width: 1320px) {
   .companion__container {
     -webkit-box-pack: center;
@@ -1037,6 +1053,23 @@ body {
 }
 
 @media (max-width: 1300px) {
+  .header {
+    background-image: url(../img/traveller-illustration-768.svg), url(../img/header-bg.png);
+    background-position: top 345px right 111px, center;
+    background-repeat: no-repeat;
+  }
+  .header__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 86px;
+  }
+  .header__content-left {
+    margin: 0 auto;
+  }
+  .header__content-right {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
   .form-email {
     width: 550px;
   }
@@ -1046,6 +1079,45 @@ body {
 }
 
 @media (max-width: 1180px) {
+  .header__burger {
+    width: 25px;
+    height: 11px;
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+  }
+  .header__burger span {
+    width: 25px;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background-color: #fff;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  .header__content {
+    padding: 72px 32px;
+  }
+  .header__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header__item {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .header__item:nth-child(2) {
+    left: -40px;
+  }
+  .header__item:nth-child(3) {
+    left: 0;
+  }
+  .header__item:nth-child(4) {
+    left: -40px;
+  }
   .map__wrapper {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1108,6 +1180,15 @@ body {
     width: 100px;
     font-size: 0;
     padding-top: 12px;
+  }
+}
+
+@media (max-width: 920px) {
+  .service {
+    background-position: center right;
+  }
+  .service__content {
+    max-width: 309px;
   }
 }
 
@@ -1208,6 +1289,10 @@ body {
 }
 
 @media (max-width: 700px) {
+  .service {
+    background-image: url(../img/service-bg.png);
+    background-position: center;
+  }
   .form-email {
     max-width: 300px;
   }
@@ -1258,6 +1343,9 @@ body {
 }
 
 @media (max-width: 600px) {
+  .service {
+    padding: 72px 29px 82px;
+  }
   .directions__example-card {
     width: 100%;
     max-width: 560px;
@@ -1369,6 +1457,22 @@ body {
 }
 
 @media (max-width: 470px) {
+  .service {
+    background-size: 282px 353px;
+  }
+  .service__subtitle {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  .service__text {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0;
+  }
+  .more-btn-service {
+    display: none;
+  }
   .directions__example-wrapper {
     padding: 24px;
   }

@@ -15,6 +15,7 @@ body{
     background-image: url(../img/traveller-illustration.png), url(../img/header-bg.png);
     background-position: top 110px left 604px, center;
     background-repeat: no-repeat;
+    background-color: #161C35;
 }
 .header__top{
     display: flex;
@@ -33,6 +34,13 @@ body{
     line-height: 20px;
     text-transform: uppercase;
 }
+.logo{
+  width: 200px;
+  height: 50px;
+}
+// .header__burger{
+//   display: none;
+// }
 .header__top-light{
   background-color: #fff;
   color: #192144;

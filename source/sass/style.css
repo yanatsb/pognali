@@ -140,7 +140,8 @@ body {
   height: 50px;
 }
 
-.header__contacts {
+.header__contacts,
+.social-network__wrapper {
   display: none;
 }
 
@@ -1137,6 +1138,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-top: 185px;
   }
   .header__burger.active {
     width: 22px;
@@ -1174,7 +1176,14 @@ body {
     line-height: 71px;
     text-transform: uppercase;
     color: #192144;
-    padding-top: 108px;
+  }
+  .social-network__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .social-network-header {
+    background-color: #fff;
   }
   .header__contacts {
     display: -webkit-box;
@@ -1287,6 +1296,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .header__contacts {
+    padding: 144px 0 122px;
+  }
   .directions {
     background-position: top 130px right 40px;
   }

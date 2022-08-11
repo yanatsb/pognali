@@ -13,7 +13,10 @@
         <div class="header__top">
           <div class="header__top-left">
             <a class="logo header__logo" href="">
-              <img class="logo__img" src="/source/img/logo.svg" alt="">
+              <picture>
+                <source srcset="logo-mobile.svg" media="(max-width: 550px)">
+                <img class="logo__img" src="/source/img/logo.svg" alt="">
+              </picture>
             </a>
             <span class="header__top-line"></span>
         <div class="header__nav">
@@ -35,11 +38,22 @@
             </li>
           </ul>
           <div class="header__contacts">
-            <a class="intrested__contacts-number" href="88005558628">
+            <a class="intrested__contacts-number header__contacts-number" href="88005558628">
               8 800 555-86-28
             </a>
-            <a class="intrested__contacts-mail" href="mailto:mail@htmlacademy.ru">
+            <a class="intrested__contacts-mail header__contacts-mail" href="mailto:mail@htmlacademy.ru">
               mail@htmlacademy.ru
+            </a>
+          </div>
+          <div class="social-network__wrapper">
+            <a class="social-network social-network-header" href="">
+              <img class="social-network__img" src="img/telegram.svg" alt="">
+            </a>
+            <a class="social-network social-network-header" href="">
+              <img class="social-network__img" src="img/vkontakte.svg" alt="">
+            </a>
+            <a class="social-network social-network-header" href="">
+              <img class="social-network__img" src="img/youtube.svg" alt="">
             </a>
           </div>
         </div>

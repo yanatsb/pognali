@@ -80,6 +80,10 @@ body{
         color: #FFD74B;
         // color: $main-yellow;
       }
+      &:active{
+        color: #FFD74B;
+        opacity: 0.3;
+      }
   }
   .call-btn{
     width: 50px;
@@ -97,6 +101,12 @@ body{
     &:hover{
       background: #F26926;
       // background: $dark-orange;
+    }
+  }
+  .call-btn-img path{
+    color:  #161C35;
+    &:active{
+      opacity: 0.3;
     }
   }
   .mail-btn{
@@ -117,6 +127,12 @@ body{
       // background: $orange;
     }
   }
+  .mail-btn-img path{
+    color:  #161C35;
+    &:active{
+      opacity: 0.3;
+    }
+  }
   .authorization-btn{
     display: inline-block;
     border-radius: 25px;
@@ -127,6 +143,11 @@ body{
     &:hover{
       background: #FFBD30;
       // background: $yellow-dark;
+    }
+    &:active{
+      ////как применить opacity только к тексту?
+      color: #161C35;
+      opacity: 0.3;
     }
   }
   .header__content{
@@ -167,7 +188,13 @@ body{
     padding: 30px 32px 30px 30px;
     border-radius: 20px;
     flex-basis: 25%;
-    
+    color: #161C35;
+  }
+  .header__item span{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
   }
   .header__item:not(:last-child){
     padding-right: 62px;
@@ -190,4 +217,13 @@ body{
     position: relative;
     left: -90px;
   }
-
+.more-btn,
+.map__btn{
+  transition: all .3s;
+  &:hover{
+    background: #FFBD30;
+  }
+  &:active{
+    
+  }
+}

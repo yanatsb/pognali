@@ -363,6 +363,7 @@
     }
   }
   @media (max-width: 700px){
+    
     .service{
         background-image: url(../img/service-bg.png);
         background-position: center;
@@ -424,6 +425,32 @@
     // }
   }
   @media (max-width: 600px){
+    // .header__top{
+    //     flex-wrap: wrap;
+    // }
+    // .header__top-right{
+    //     flex-basis: 100%;
+    //     justify-content: center;
+    // }
+    .header__top-list{
+        text-align: center;
+    }
+    .header__contacts{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .header__contacts-number::before,
+    .header__contacts-mail::before {
+        width: 45px;
+        height: 45px;
+        background-size: 18px;
+        padding-left: 51px;
+        top: -18px;
+        left: 0;
+    }
+    .social-network__wrapper{
+        justify-content: center;
+    }
     .service {
         padding: 72px 29px 82px;
     }

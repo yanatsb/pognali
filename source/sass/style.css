@@ -196,6 +196,11 @@ body {
   color: #FFD74B;
 }
 
+.link:active {
+  color: #FFD74B;
+  opacity: 0.3;
+}
+
 .call-btn {
   width: 50px;
   height: 50px;
@@ -214,6 +219,14 @@ body {
 
 .call-btn:hover {
   background: #F26926;
+}
+
+.call-btn-img path {
+  color: #161C35;
+}
+
+.call-btn-img path:active {
+  opacity: 0.3;
 }
 
 .mail-btn {
@@ -236,6 +249,14 @@ body {
   background: #FF8D30;
 }
 
+.mail-btn-img path {
+  color: #161C35;
+}
+
+.mail-btn-img path:active {
+  opacity: 0.3;
+}
+
 .authorization-btn {
   display: inline-block;
   border-radius: 25px;
@@ -246,6 +267,10 @@ body {
 
 .authorization-btn:hover {
   background: #FFBD30;
+}
+
+.authorization-btn:active {
+  opacity: 0.3;
 }
 
 .header__content {
@@ -307,6 +332,14 @@ body {
   border-radius: 20px;
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
+  color: #161C35;
+}
+
+.header__item span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .header__item:not(:last-child) {
@@ -1296,6 +1329,15 @@ body {
 }
 
 @media (max-width: 768px) {
+  .header__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 10px;
+  }
+  .header__item span {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
   .header__contacts {
     padding: 144px 0 122px;
   }
@@ -1449,6 +1491,27 @@ body {
 }
 
 @media (max-width: 600px) {
+  .header__top-list {
+    text-align: center;
+  }
+  .header__contacts {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .header__contacts-number::before,
+  .header__contacts-mail::before {
+    width: 45px;
+    height: 45px;
+    background-size: 18px;
+    padding-left: 51px;
+    top: -18px;
+    left: 0;
+  }
+  .social-network__wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .service {
     padding: 72px 29px 82px;
   }

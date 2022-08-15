@@ -1,4 +1,5 @@
 .footer__container{
+    padding: 47px 58px 43px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,10 +14,22 @@
     border-radius: 50%;
     width: 62px;
     height: 62px;
+    position: relative;
+    transition: all .3s;
+    &:hover{
+        background: #FFBD30;
+    }
 }
-.social-network__img{
-    padding: 15px;
-    text-align: center;
+.social-network svg{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.social-network svg path{
+    transition: all .3s;
+}
+.social-network svg path:active{
+    opacity: 0.3;
 }
 .footer__developed{
     font-weight: 400;
@@ -26,4 +39,11 @@
     display: flex;
     align-items: center;
     gap: 24px;
+    transition: all .3s;
+    &:hover{
+        opacity: 0.6;
+    }
+    &:active{
+        opacity: 0.3;
+    }
 }

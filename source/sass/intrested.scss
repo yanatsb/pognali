@@ -34,6 +34,7 @@
     background: #FFFFFF;
     color: #444444;
     border-radius: 20px 0 0 20px;
+    transition: all .3s;
     &::placeholder{
         // font-family: 'Blogger Sans';
         // font-style: normal;
@@ -42,6 +43,9 @@
         // line-height: 24px;
         // color: #444444;
         opacity: 0.3;
+    }
+    &:hover{
+        background: #EDEFF6;
     }
 }
 .registration-btn{
@@ -57,6 +61,14 @@
     text-align: left;
     padding-left: 36px;
     border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    transition: all .3s;
+     &:hover{
+        background: #FFBD30;
+    }
+    &:active{
+        color: #B98D32;
+    }
 }
 .registration-btn::after{
     position: absolute;

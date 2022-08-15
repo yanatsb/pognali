@@ -104,6 +104,7 @@ body{
     }
   }
   .call-btn-img path{
+    transition: all .3s;
     color:  #161C35;
     &:active{
       opacity: 0.3;
@@ -128,6 +129,7 @@ body{
     }
   }
   .mail-btn-img path{
+    transition: all .3s;
     color:  #161C35;
     &:active{
       opacity: 0.3;
@@ -139,15 +141,14 @@ body{
     padding: 16px 28px 14px;
     background: #FFD74B;
     // background: $main-yellow;
+    transition: all .3s;
     color: #161C35;
     &:hover{
       background: #FFBD30;
       // background: $yellow-dark;
     }
     &:active{
-      ////как применить opacity только к тексту?
-      color: #161C35;
-      opacity: 0.3;
+      color: #B98D32;
     }
   }
   .header__content{
@@ -217,13 +218,36 @@ body{
     position: relative;
     left: -90px;
   }
-.more-btn,
-.map__btn{
+.more-btn{
   transition: all .3s;
   &:hover{
     background: #FFBD30;
   }
   &:active{
-    
+    color: #B98D32;
   }
 }
+.map__btn{
+  transition: all .3s;
+  &:hover{
+    background: #192144;
+    color: #fff;
+  }
+  &:active{
+    color: #5E647C;
+  }
+}
+// .more-btn::after,
+// .map__btn::after{
+//   transition: all .3s;
+//   &:hover{
+//     border-top: 8px solid transparent;
+//     border-bottom: 8px solid transparent;
+//     border-left: 14px solid #FFBD30;
+//   }
+//   &:active{
+//     border-top: 8px solid transparent;
+//     border-bottom: 8px solid transparent;
+//     border-left: 14px solid #B98D32;
+//   }
+// }

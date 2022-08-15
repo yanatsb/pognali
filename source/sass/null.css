@@ -3,8 +3,7 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Убираем внутренние отступы */
@@ -54,5 +53,4 @@ select {
 a {
   text-decoration: none;
   color: inherit;
-}
-/*# sourceMappingURL=null.css.map */
+}/*# sourceMappingURL=null.css.map */

@@ -1,28 +1,24 @@
 @font-face {
-  font-family: 'Blogger Sans';
+  font-family: "Blogger Sans";
   src: url("/source/fonts/Blogger Sans-Light.otf");
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Blogger Sans';
+  font-family: "Blogger Sans";
   src: url("/source/fonts/Blogger Sans.otf");
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Blogger Sans';
+  font-family: "Blogger Sans";
   src: url("/source/fonts/Blogger Sans-Medium.otf");
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Blogger Sans';
+  font-family: "Blogger Sans";
   src: url("/source/fonts/Blogger Sans-Bold.otf");
   font-weight: 700;
   font-style: normal;
-}
-/*# sourceMappingURL=font-style.css.map */
+}/*# sourceMappingURL=font-style.css.map */

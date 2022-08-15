@@ -10,16 +10,9 @@
 }
 
 .service__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   max-width: 619px;
 }
 
@@ -60,9 +53,8 @@
   position: absolute;
   top: 30px;
   right: 35px;
-  content: '';
+  content: "";
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
   border-left: 14px solid #1D2E5B;
-}
-/*# sourceMappingURL=section-service.css.map */
+}/*# sourceMappingURL=section-service.css.map */

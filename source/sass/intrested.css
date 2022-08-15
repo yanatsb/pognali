@@ -15,7 +15,6 @@
   max-width: 655px;
   margin: 0 auto 60px;
 }
-
 .intrested__text span {
   color: #FFD74B;
   text-decoration: underline;
@@ -29,7 +28,7 @@
   width: 850px;
   height: 81px;
   padding: 28px 36px;
-  font-family: 'Blogger Sans';
+  font-family: "Blogger Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -37,26 +36,17 @@
   background: #FFFFFF;
   color: #444444;
   border-radius: 20px 0 0 20px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  transition: all 0.3s;
 }
-
-.form-email::-webkit-input-placeholder {
+.form-email::-moz-placeholder {
   opacity: 0.3;
 }
-
 .form-email:-ms-input-placeholder {
   opacity: 0.3;
 }
-
-.form-email::-ms-input-placeholder {
-  opacity: 0.3;
-}
-
 .form-email::placeholder {
   opacity: 0.3;
 }
-
 .form-email:hover {
   background: #EDEFF6;
 }
@@ -75,14 +65,11 @@
   padding-left: 36px;
   border-radius: 0 20px 20px 0;
   cursor: pointer;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  transition: all 0.3s;
 }
-
 .registration-btn:hover {
   background: #FFBD30;
 }
-
 .registration-btn:active {
   color: #B98D32;
 }
@@ -91,22 +78,16 @@
   position: absolute;
   top: 32px;
   right: 25px;
-  content: '';
+  content: "";
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
   border-left: 14px solid #1D2E5B;
 }
 
 .intrested__contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   gap: 231px;
   font-weight: 700;
   font-size: 28px;
@@ -119,7 +100,7 @@
 }
 
 .intrested__contacts-number::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -35px;
   left: -110px;
@@ -138,7 +119,7 @@
 }
 
 .intrested__contacts-mail::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -35px;
   left: -110px;
@@ -150,5 +131,4 @@
   height: 90px;
   padding: 27px;
   border-radius: 50%;
-}
-/*# sourceMappingURL=intrested.css.map */
+}/*# sourceMappingURL=intrested.css.map */
